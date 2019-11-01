@@ -7,10 +7,10 @@ namespace Smile.Guids
     /// <summary>
     /// 简单Guid
     /// </summary>
-    public class SimpleGuid : IGuidGenerrator
+    public class SimpleGuidGenerator : IGuidGenerator
     {
-        private SimpleGuid() { }
-        public static SimpleGuid Instance { get; } = new SimpleGuid();
+        private SimpleGuidGenerator() { }
+        public static SimpleGuidGenerator Instance { get; } = new SimpleGuidGenerator();
 
         /// <summary>
         /// 

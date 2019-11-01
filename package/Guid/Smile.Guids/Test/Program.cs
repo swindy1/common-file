@@ -6,7 +6,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            var id = Smile.Guids.SequentialGuid.Instance.Create();
+            var id = Smile.Guids.SequentialGuidGenerator.Instance.Create();
             Console.WriteLine(id);
         }
     }

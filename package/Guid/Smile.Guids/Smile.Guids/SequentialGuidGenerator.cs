@@ -8,11 +8,11 @@ namespace Smile.Guids
     /// <summary>
     /// 有序Guid
     /// </summary>
-    public class SequentialGuid : IGuidGenerrator
+    public class SequentialGuidGenerator : IGuidGenerator
     {
-        private SequentialGuid() { }
+        private SequentialGuidGenerator() { }
 
-        public static SequentialGuid Instance { get; } = new SequentialGuid();
+        public static SequentialGuidGenerator Instance { get; } = new SequentialGuidGenerator();
 
         public virtual Guid Create()
         {

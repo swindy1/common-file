@@ -8,7 +8,7 @@ namespace Smile.Guids
     /// <summary>
     /// Guid生成
     /// </summary>
-    public interface IGuidGenerrator
+    public interface IGuidGenerator
     {
         /// <summary>
         /// 创建Guid
