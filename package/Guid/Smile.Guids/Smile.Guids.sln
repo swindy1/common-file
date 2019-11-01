@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smile.Guids", "Smile.Guids\Smile.Guids.csproj", "{FFE1CB82-50AF-4743-94C3-726018FD56BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{20BC9F4D-C95E-498C-B0C7-5F9C7B007119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFE1CB82-50AF-4743-94C3-726018FD56BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE1CB82-50AF-4743-94C3-726018FD56BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE1CB82-50AF-4743-94C3-726018FD56BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE1CB82-50AF-4743-94C3-726018FD56BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BC9F4D-C95E-498C-B0C7-5F9C7B007119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BC9F4D-C95E-498C-B0C7-5F9C7B007119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BC9F4D-C95E-498C-B0C7-5F9C7B007119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BC9F4D-C95E-498C-B0C7-5F9C7B007119}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35438CB3-EB0A-40CB-B174-DABB6BCBB3E9}
+	EndGlobalSection
+EndGlobal
