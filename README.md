@@ -1,2 +1,2 @@
 # common-package
-公共文件
+公共组件
