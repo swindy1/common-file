@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Smile.Utils.Helpers
@@ -43,6 +44,26 @@ namespace Smile.Utils.Helpers
         public static void NotNull<T>(T value)
         {
             Need<ArgumentNullException>(value == null, $"{value.GetType().Name} is null");
+        }
+
+        /// <summary>
+        /// Guid空值检查
+        /// </summary>
+        /// <param name="value"></param>
+        public static void NotNullOrEmpty(Guid value)
+        {
+            Need<ArgumentException>(value == null || value == Guid.Empty, $"Guid is null");
+        }
+
+        /// <summary>
+        /// 集合类型检查
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="collection"></param>
+        public static void NotNullOrEmpty<T>(IEnumerable<T> collection)
+        {
+            NotNull(collection);
+            Need<ArgumentException>(collection.Any(), $"{collection.GetType().Name} not contains items");
         }
     }
 }
